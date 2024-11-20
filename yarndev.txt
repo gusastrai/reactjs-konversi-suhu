@@ -1,0 +1,12 @@
+yarn dev
+npm run dev
+
+docker build -t nameproject:version
+ex docker build -t reactjs/konversi-suhu:1.0.0
+
+docker images
+
+docker run -d -p 3000:3000 reactjs/konversi-suhu:1.0.0
+docker ps
+
+docker container stop namacontainer
